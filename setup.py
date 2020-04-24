@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+# PEP 394 -- The "python" Command on Unix-Like Systems
+# https://www.python.org/dev/peps/pep-0394
+# https://en.wikipedia.org/wiki/Shebang_(Unix)
+
+# PEP 263 -- Defining Python Source Code Encodings
+# https://www.python.org/dev/peps/pep-0263/
+
 """A setuptools based setup module.
 
 See:
