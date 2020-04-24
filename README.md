@@ -29,6 +29,15 @@ usage examples, etc. Generally, including the project changelog in here is not a
 good idea, although a simple “What's New” section for the most recent version
 may be appropriate.
 
+# Deploying development environment based on conda
+1. Install conda https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+   See details about installation lightweight version named miniconda
+   https://docs.conda.io/en/latest/miniconda.html
+
+2. Deploy and activate runtime envirenment
+`conda env create -f environment.yml`
+`conda activate bucket-indexer`
+
 [packaging guide]: https://packaging.python.org
 [distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
 [src]: https://github.com/pypa/sampleproject

@@ -1,0 +1,16 @@
+name: sampleproject
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+      # Additional pip options
+      #- --index-url http://pyats-pypi.cisco.com/simple
+      #- --trusted-host=pyats-pypi.cisco.com
+      #- --extra-index-url https://pypi.python.org/simple
+      #- --disable-pip-version-check
+      #- http://stg-auto-lnx.cisco.com/pyats/exscript-master.zip
+      - PyYAML==3.11
+      - six==1.9.0
